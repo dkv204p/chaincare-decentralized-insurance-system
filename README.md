@@ -55,13 +55,16 @@ cd chaincare-decentralized-insurance-system
 
 ```bash
 # Install backend dependencies
-cd chaincare-server && npm install
+cd chaincare-server
+npm install
 
 # Install frontend dependencies
-cd ../chaincare-client && npm install
+cd ../chaincare-client
+npm install
 
 # Install blockchain dependencies
-cd ../chaincare-blockchain && npm install
+cd ../chaincare-blockchain
+npm install
 ```
 
 #### 3. Start Ganache:
